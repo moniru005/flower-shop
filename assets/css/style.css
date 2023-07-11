@@ -210,10 +210,10 @@ margin-top: 100px;
     display: flex;
     justify-content: space-around;
     width: 800px;
-    gap: 20px;
+    gap: 5px;
 }
 .instagram-images img{
-    width: 200px;
+    width: 190px;
 }
 
 /* Subscriber Style */
