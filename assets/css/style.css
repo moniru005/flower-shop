@@ -85,6 +85,7 @@ nav{
 
 }
 /* Feature Style */
+
 .feature{
     display: block;
     padding-top: 100px;
@@ -138,4 +139,30 @@ feature-title{
 }   
 .image-caption{
     padding-top: 20px;
+}
+
+/* Small Banner Style */
+
+.small-banner{
+margin-top: 100px;
+}
+.small-banner-container{
+    background-color: #477D1126;
+    width: 800px;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-around;
+
+}
+.small-banner-content{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.small-banner-content img{
+    width: 50px;
+}
+.small-banner-desc{
+    font-size: 14px;
 }
