@@ -76,6 +76,7 @@ nav{
 }
 .banner-desc{
     padding-bottom: 10px;
+    color: rgba(39, 39, 39, 0.60);
 }
 .banner-image{
     position: relative;
@@ -104,9 +105,10 @@ nav{
     width: 500px;
     padding-bottom: 50px;
 }
-feature-title{
-
+.feature-desc{
+    color: rgba(39, 39, 39, 0.60);
 }
+
 .feature-box{
     display: flex;
     justify-content: space-around;
@@ -140,6 +142,7 @@ feature-title{
 }   
 .image-caption{
     padding-top: 20px;
+    text-decoration: underline;
 }
 
 /* Small Banner Style */
@@ -187,6 +190,7 @@ margin-top: 100px;
 }
 .hotdeal-desc{
     padding-bottom: 10px;
+    color: rgba(39, 39, 39, 0.60);
 }
 .hotdeal-image img{
     width: 220px;
@@ -200,6 +204,7 @@ margin-top: 100px;
 }
 .instagram-desc{
     padding-bottom: 50px;
+    color: rgba(39, 39, 39, 0.60);
 }
 .instagram-images{
     display: flex;
@@ -225,6 +230,12 @@ margin-top: 100px;
 .subscriber-content{
     padding-bottom: 20px;
 }
+.subscriber-title{
+    padding-bottom: 10px;
+}
+.subscriber-desc{
+    color: rgba(39, 39, 39, 0.60);
+}
 .subscriber-form{
     display: inline-flex;
     align-items: center;
@@ -237,5 +248,31 @@ margin-top: 100px;
     padding: 10px;
 }
 
+/* Footer Style */
+footer{
+    margin-top: 100px;
+    background-color: #111010;
+    color: white;
+}
+.footer-container{
+    display: block;
+    text-align: center;
+    padding: 50px 0;
+}
+.footer-content{
 
+}
+.footer-title{
+    padding-bottom: 10px;
+}
+.footer-title span{
+    color: #E55473;
+}
+.footer-desc{
+    padding-bottom: 20px;
+    color: rgba(255, 255, 255, 0.90)
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+}
 
