@@ -12,7 +12,8 @@ body{
     border-radius: 8px;
     background: #E55473;
     padding: 10px 20px;
-    cursor: pointer;    
+    cursor: pointer;
+    color: white;    
 }
 .section-title{
     font-size: 30px;
@@ -166,6 +167,8 @@ margin-top: 100px;
 .small-banner-desc{
     font-size: 14px;
 }
+
+/* Hotdeal style */
 .hotdeal{
     margin-top: 100px;
     background-color: rgba(229, 84, 115, 0.05);
@@ -188,3 +191,51 @@ margin-top: 100px;
 .hotdeal-image img{
     width: 220px;
 }
+
+/* Instagram Style */
+.instagram{
+    margin-top: 100px;
+    display: block;
+    text-align: center;
+}
+.instagram-desc{
+    padding-bottom: 50px;
+}
+.instagram-images{
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    gap: 20px;
+}
+.instagram-images img{
+    width: 200px;
+}
+
+/* Subscriber Style */
+.subscriber{
+    margin-top: 100px;
+    display: block;
+    text-align: center;
+}
+.subscriber-container{
+    background-image: url('../images/Rectangle\ 9.png');
+    padding: 80px 0;
+    width: 800px;
+}
+.subscriber-content{
+    padding-bottom: 20px;
+}
+.subscriber-form{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+.subscriber-form input[type="text"]{
+    width: 400px;
+    border:1px solid white;
+    background-color: white;
+    padding: 10px;
+}
+
+
+
